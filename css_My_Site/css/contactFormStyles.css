@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&display=swap');
+
+
+body {
+  background-color: #D3E4CD;
+  margin: 0px;
+  height: 100vh;
+}
+
+#img-cloud-1 {
+  margin: 70px 17px 0 17px;
+  width: 17%;
+}
+
+#img-monster {
+  width: 5%;
+  height: 5%;
+  margin: 10px;
+  -webkit-transition: -webkit-transform 1s; /*rotate the monster*/
+}
+
+
+#img-monster:hover {
+  -webkit-transform: rotate(360deg) translateZ(0); /*rotate the monster*/
+}
+
+.zero_container {
+  background-color: #D3E4CD;
+  text-align: right;
+}
+
+h1 {
+  font-family: "Dancing Script" , Helvetica , Arial , sans-serif ;
+  text-align: center;
+  color: #41ABAC;
+  font-size: 50px;
+  margin: 10px;
+}
+
+td {
+  border: 0;
+}
+
+.feel {
+  background-color: #D3E4CD;
+  text-align: center;
+}
+
+.form1 {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1em;
+  border-color: #41ABAC;
+}
+
+.tableFont {
+  font-family: "Dancing Script" , Helvetica , Arial , sans-serif;
+  color: #41ABAC;
+  font-size: 30px;
+
+}
+
+.p1 {
+  font-family: "Dancing Script" , Helvetica , Arial , sans-serif;
+  color: #41ABAC;
+  font-size: 35px;
+  text-align: center;
+  margin: 10px;
+}
+
+.sent {
+  width: 150px;
+  color: #E4EFE7;
+  font-size: 25px;
+  background: #7AB0C1;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  margin-top: 30px;
+  margin-left: 15px;
+  font-family: "Dancing Script" , sans-serif;
+  transition: ease-out 0.2s;
+  box-shadow: inset 0 0 0 0 #41ABAC;
+
+}
+
+
+.sent:hover {
+  box-shadow: inset 150px 0 0 0 #41ABAC;
+  cursor: pointer;
+
+}
+
+.sent_pref {
+    background-color: #D3E4CD;
+}
+
+
+button {
+  width: 150px;
+  color: #E4EFE7;
+  font-size: 25px;
+  background: #7AB0C1;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  margin: 15px 0 15px 20px;
+  font-family: "Oooh Baby" , sans-serif;
+  transition: ease-out 0.2s;
+  box-shadow: inset 0 0 0 0 #41ABAC;
+
+}
+
+
+button:hover {
+  box-shadow: inset 150px 0 0 0 #41ABAC;
+  cursor: pointer;
+
+}
+
+.button_pref {
+    width: 100%;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.05);
+    text-align: left;
+    z-index: 1;
+    display: flex;
+    position: fixed;
+}
+
+.button_link_out {
+  color: #E4EFE7;
+  text-decoration: none;
+}
+
+.button_link_out_submit{
+  background-color: #7AB0C1;
+  color: #E4EFE7;
+  text-decoration: none;
+  border: 0;
+  font-size: 25px;
+  cursor: pointer;
+
+}

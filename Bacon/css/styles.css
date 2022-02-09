@@ -1,0 +1,44 @@
+
+body{
+  background-color: lightsteelblue;
+}
+h1 {
+  color: red;
+  font-size: 40px;
+
+}
+
+.img_vegetable {
+  border-radius: 100%;
+  border-bottom-left-radius: 10px;
+  border-style: solid;
+  background-color: grey;
+  border-color: white;
+  border-width: 5px;
+  height: 80px;
+  width: 80px;
+}
+
+.a {
+font-family: "Poppins" , Helvetica , Arial , sans-serif;
+font-size: 20px;
+
+}
+
+.td_a {
+  font-family: "Poppins" , Helvetica , Arial , sans-serif;
+  font-size: 18px;
+  text-align: center;
+
+
+}
+
+img:hover {
+  background-color: red;
+  height: 80px;
+  width: 80px;
+}
+
+#heading{
+  color: blue;
+}

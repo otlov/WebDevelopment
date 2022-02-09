@@ -1,0 +1,179 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Oooh+Baby&family=Syncopate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&display=swap');
+
+body {
+  margin: 0px;
+  height: 100vh;
+  text-align: center;
+
+}
+
+h1 , h2 {
+  text-align: center;
+  margin: 0px;
+  color: #41ABAC;
+}
+
+h3 {
+  font-family: "Dancing Script", Helvetica, Arial, sans-serif;
+  margin-top: 0;
+  color: #41ABAC;
+  font-size: 37px;
+
+}
+
+p {
+  font-family: "Dancing Script", Helvetica, Arial, sans-serif;
+  font-size: 34px;
+  color: #41ABAC;
+  margin-top: 5px;
+  margin-left: 25%;
+  margin-right: 25%;
+
+}
+
+#page1 {
+  background-color: #D3E4CD;
+  width: 100%;
+  height: 100%;
+
+
+}
+
+#page2 {
+  background-color: #F2DDC1;
+  width: 100%;
+  height: 100%;
+
+}
+
+.head_container {
+  background-color: #D3E4CD;
+}
+
+.zero_container {
+  background-color: #D3E4CD;
+  text-align: right;
+
+}
+
+.top_container {
+  background-color: #D3E4CD;
+  margin: 0;
+
+}
+
+.story_container {
+  background-color: #F2DDC1;
+  width: 100%;
+  margin: 0 auto 0 auto;
+
+
+}
+
+.midlle_container {
+  background-color: #F2DDC1;
+  width: 200px;
+  height: 200px;
+}
+
+.bottom_container {
+  background-color: #D3E4CD;
+  text-align: left;
+}
+
+.bird_container {
+  background-color: #F2DDC1;
+  text-align: right;
+
+}
+
+#img-cloud-1 {
+  margin: 70px 17px;
+  width: 17%;
+
+
+}
+
+#img-cloud-2 {
+  margin: 17px;
+  width: 17%;
+
+
+}
+
+#img-bird {
+  margin: 70px 100px 0 0;
+  width: 12%;
+
+}
+
+#img-mountain {
+  width: 60%;
+  margin: 0 auto 0 auto;
+
+
+}
+
+#img-monster {
+  width: 8%;
+  height: 8%;
+  margin: 10px;
+  -webkit-transition: -webkit-transform 1s; /*rotate the monster*/
+}
+
+
+#img-monster:hover {
+  -webkit-transform: rotate(360deg) translateZ(0); /*rotate the monster*/
+}
+
+#img-name {
+  align-items: center;
+  width: 45%;
+  height: 45%;
+  margin: 10px;
+}
+
+#img-position {
+  width: 30%;
+  height: 30%;
+
+}
+
+button {
+  width: 150px;
+  color: #E4EFE7;
+  font-size: 25px;
+  background: #7AB0C1;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  margin: 15px 0 15px 20px;
+  font-family: "Oooh Baby" , sans-serif;
+  transition: ease-out 0.2s;
+  box-shadow: inset 0 0 0 0 #41ABAC;
+
+}
+
+
+button:hover {
+  box-shadow: inset 150px 0 0 0 #41ABAC;
+  cursor: pointer;
+
+}
+
+.button_pref {
+    width: 100%;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.05);
+    text-align: left;
+    z-index: 1;
+    display: flex;
+    position: fixed;
+}
+
+.button_link_out {
+  color: #E4EFE7;
+  text-decoration: none;
+}

@@ -1,0 +1,24 @@
+body {
+font-family: Helvetica , Arial, sans-serif ;
+margin: 0;
+height: 100vh;
+background-color: pink;
+text-align: center;
+
+}
+
+.parent {
+background-color: aquamarine;
+width: 300px;
+height: 300px;
+margin: 0;
+border-radius: 50%;
+justify-content: center;
+
+
+}
+
+.Child {
+
+ font-size:
+}

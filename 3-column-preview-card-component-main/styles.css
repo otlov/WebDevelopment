@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body {
+margin: 0;
+padding: 0;
+height: 100vh;
+position: relative;
+}
+
+h2 {
+  font-family: 'Big Shoulders Display', cursive;
+  color: hsl(0, 0%, 95%);
+  font-size: 2.4em;
+  padding: 45px 0 0 45px;
+  margin: 0;
+
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 0 45px 0 45px;
+  line-height: 1.6;
+  margin: 30px 0;
+
+
+}
+
+img {
+  padding: 45px 0 0 45px;
+}
+
+.sedans {
+  width: 300px;
+  height: 500px;
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+}
+
+.suvs {
+  width: 300px;
+  height: 500px;
+  background-color: hsl(184, 100%, 22%);
+
+}
+
+.luxury {
+  width: 300px;
+  height: 500px;
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.box {
+  display: inline-flex;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+
+}
+
+.button1 {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsl(31, 77%, 52%);
+  font-size: 15px;
+  background: #ffffff;
+  padding: 13px 24px 13px 24px;
+  text-decoration: none;
+  border: 0;
+  margin: 45px;
+}
+
+.button1:hover {
+  background: hsl(31, 77%, 52%);
+  text-decoration: none;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+.button2 {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsl(184, 100%, 22%);
+  font-size: 15px;
+  background: #ffffff;
+  padding: 13px 24px 13px 24px;
+  text-decoration: none;
+  border: 0;
+  margin: 45px;
+}
+
+.button2:hover {
+  background: hsl(184, 100%, 22%);
+  text-decoration: none;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+
+}
+
+.button3 {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsl(179, 100%, 13%);
+  font-size: 15px;
+  background: #ffffff;
+  padding: 13px 24px 13px 24px;
+  text-decoration: none;
+  border: 0;
+  margin: 45px;
+}
+
+.button3:hover {
+  background: hsl(179, 100%, 13%);
+  text-decoration: none;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+
+}
